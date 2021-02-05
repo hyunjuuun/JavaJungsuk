@@ -1,4 +1,4 @@
-class Data { int x; }
+// class Data { int x; }
 
 public class ReferenceParamEx {
 
@@ -12,7 +12,7 @@ public class ReferenceParamEx {
 		System.out.println("main() : x = " + d.x);
 	}
 	
-	static void change(Data d) { // 참조형 매개변수 
+	static void change(Data d) { // 李몄“�삎 留ㅺ컻蹂��닔 
 		d.x = 1000;
 		System.out.println("change() : x = " + d.x);
 	}
