@@ -12,10 +12,10 @@ class Car {
 	}
 }
 
-class CarTest {
+class CarTest { 
 	public static void main(String[] args) {
 		Car c1 = new Car();
-		c1.color = "white";
+		c1.color = "blue";
 		c1.gearType = "auto";
 		c1.door = 4;
 		
