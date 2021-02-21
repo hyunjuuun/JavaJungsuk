@@ -1,6 +1,7 @@
+package ch06;
 public class CallStackTest {
 	public static void main(String[] args) {
-		firstMethod(); // static¸Þ¼­µå´Â °´Ã¼ »ý¼º¾øÀÌ È£Ãâ°¡´ÉÇÏ´Ù.
+		firstMethod(); // staticï¿½Þ¼ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È£ï¿½â°¡ï¿½ï¿½ï¿½Ï´ï¿½.
 	}
 	
 	static void firstMethod() {

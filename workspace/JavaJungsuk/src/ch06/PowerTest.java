@@ -1,3 +1,4 @@
+package ch06;
 class PowerTest {
 	public static void main(String[] args) {
 		int x = 2;

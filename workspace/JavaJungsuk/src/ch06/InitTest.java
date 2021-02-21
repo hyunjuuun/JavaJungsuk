@@ -1,3 +1,4 @@
+package ch06;
 class InitTest {
 	// 명시적 초기화
 	static int cv = 1;

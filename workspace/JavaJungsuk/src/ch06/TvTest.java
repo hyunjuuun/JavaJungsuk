@@ -1,3 +1,4 @@
+package ch06;
 class Tv {
 	// Tv의 속성 (멤버변수)
 	String color;

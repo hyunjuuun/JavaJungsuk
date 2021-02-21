@@ -1,3 +1,4 @@
+package ch06;
 class BlockTest {
 	static {
 		System.out.println("static { }");

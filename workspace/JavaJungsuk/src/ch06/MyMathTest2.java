@@ -1,3 +1,4 @@
+package ch06;
 class MyMath2 {
 	long a, b;
 

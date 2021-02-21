@@ -1,3 +1,4 @@
+package ch06;
 
 class FactorialTest2 {
 	
