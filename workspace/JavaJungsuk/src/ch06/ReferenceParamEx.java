@@ -1,5 +1,6 @@
 package ch06;
-// class Data { int x; }
+
+class Data { int x; }
 
 public class ReferenceParamEx {
 
@@ -13,9 +14,8 @@ public class ReferenceParamEx {
 		System.out.println("main() : x = " + d.x);
 	}
 	
-	static void change(Data d) { // ï§¡ëª„â€œï¿½ì‚ ï§ã…ºì»»è¹‚ï¿½ï¿½ë‹” 
+	static void change(Data d) { // ÂüÁ¶Çü ¸Å°³º¯¼ö
 		d.x = 1000;
 		System.out.println("change() : x = " + d.x);
 	}
-
 }

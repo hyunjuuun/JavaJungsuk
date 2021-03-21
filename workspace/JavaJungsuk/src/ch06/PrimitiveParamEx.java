@@ -1,8 +1,8 @@
 package ch06;
 
-class Data { int x; }
+//class Data { int x; }
 
-public class PrimitiveParamEx {
+class PrimitiveParamEx {
 	public static void main(String[] args) {
 		Data d = new Data();
 		d.x = 10;
@@ -13,9 +13,8 @@ public class PrimitiveParamEx {
 		System.out.println("main() : x = " + d.x);
 	}
 	
-	static void change(int x) { // ê¸°ë³¸í˜• ë§¤ê°œë³€ìˆ˜ 
+	static void change(int x) { // ±âº»Çü ¸Å°³º¯¼ö 
 		x = 1000;
 		System.out.println("change() : x = " + x);
 	}
-
 }
