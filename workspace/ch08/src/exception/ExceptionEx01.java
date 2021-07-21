@@ -1,6 +1,6 @@
-package no8_1;
+package exception;
 
-public class ExceptionEx1 {
+public class ExceptionEx01 {
 	public static void main(String[] args) {
 		
 		try {

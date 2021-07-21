@@ -1,6 +1,6 @@
-package no8_3;
+package exception;
 
-public class ExceptionEx3 {
+public class ExceptionEx03 {
 	public static void main(String[] args) {
 		
 		int number = 100;
